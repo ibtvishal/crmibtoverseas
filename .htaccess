@@ -1,0 +1,10 @@
+RewriteEngine on
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}$1 [R,QSA]
+</IfModule>
+
+RewriteRule ^enquiryform visit-addf.php
+
+

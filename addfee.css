@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.allboxicon{
+    background-color: #4b4b4d;
+    color: #e0ddde;
+    /* background-color: #eeeeee; */
+}
+.btnsubmit{
+    display: flex !important; 
+    justify-content: center !important;
+    margin-top: 20px !important;
+    background-color: #4b4b4d !important;
+    color: #e0ddde !important;
+}

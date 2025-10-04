@@ -1,0 +1,1248 @@
+/*.space-Applicant{
+        padding: 0 0 0 20px !important;
+}
+.space-Alternate{
+    padding: 0 21px !important;
+}
+.space-City{
+    padding: 0 67px !important;
+}
+.space-preferred{
+    padding: 0 15px !important;
+}
+*/
+
+.space-Alternate{
+    width: 110px !important;
+    text-align: left !important;
+    padding: 0 !important;
+}
+.space-state{
+    width: 110px !important;
+    text-align: left !important;
+    padding: 0 !important;
+}
+
+.space-city{
+    width: 110px !important;
+    text-align: left !important;
+    padding: 0 !important;
+}
+
+.student_filter {
+    padding: 50px 0px;
+    background-color: white;
+    padding: 20px;
+    margin: 40px 0px 0px 0px;
+    border-radius: 10px;
+}
+
+.form-wrap {
+    padding: 30px;
+    background: #fff;
+    border-radius: 11px;
+    margin-bottom: 40px;
+}
+.student_filter .input-group-addon {
+    background: #4b4b4d;
+    color: white;
+    
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid #4b4b4d;
+    padding: 0px 8px;
+    font-size: 12px;
+}
+.student_filter .input-group .form-control {
+    border-radius:0px 5px 5px 0px;
+    height: 34px !important;
+    border: 1px solid #b1b1b1;
+}
+.student_filter h4 {
+    margin-bottom: 20px;
+}
+.student_filter form .btn {
+    padding: 7px 25px;
+    background-color: #363e91;
+   /* width: 16%;*/
+    border-radius: 5px;
+}
+.document_tabs ul li {
+    width: 100%;
+}
+.document_tabs ul li.active a {
+border-bottom: 2px solid #ccc !important;
+}
+.document_tabs  {
+    background-color: #fff;
+    border-radius: 8px;
+}
+.document_tabs ul li a {
+    font-size: 14px !important;
+    font-weight: bold;
+    }
+ #document .document_tabs  .vertical-pills .ver-nav-pills > li {
+        margin: 0px !important; 
+        float: none;
+    }
+
+#myTabContent_7 .table-wrap #datable_11 thead .sorting::after {
+    display:none !important;
+}
+#myTabContent_7 .table-wrap #datable_11 thead .sorting_asc::after {
+    display:none !important;
+}
+#myTabContent_7 .table-wrap #datable_11 thead th span {
+    background: white;
+    width: 100%;
+    display: block;
+    padding: 8px 16px;
+    border-radius: 5px;
+   
+    font-size: 13px;
+    font-weight: 500;
+    
+}
+#myTabContent_7 .table-wrap #datable_11 thead th  {
+    
+    padding: 8px 5px !important;
+    border-bottom: none !important;
+    
+}
+#myTabContent_7 .table-wrap #datable_11 thead {
+    border: none !important;
+}
+
+
+#myTabContent_7 .table-wrap #datable_11 tr.filter_section td span {
+    background: white;
+    width: 100%;
+    display: block;
+    padding: 17px 16px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+    border: 1px solid #ccc;
+    
+}
+#myTabContent_7 .table-wrap #datable_11 tr.filter_section td  {
+    
+    padding: 8px 5px !important;
+    border-bottom: none !important;
+    
+}
+#myTabContent_7 .table-wrap #datable_11 .filter_section {
+    border: none !important;
+}
+#myTabContent_7 .table-wrap #datable_11 tbody td {
+    border-bottom: 1px solid #ddd !important;
+    border-top: none !important;
+    padding: 8px  !important;
+    text-align: center;
+}
+#myTabContent_7 .table-wrap #datable_11 tbody td .form-group {
+    margin-bottom: 15px;
+}
+.add-application {
+    position: absolute;
+    background-color: #363e91;
+    left:491px;
+    padding: 8px 16px;
+    color:#fff;
+    border-radius: 6px;
+}
+.application-btn {
+    position: relative;
+    margin: 30px 0px;
+}
+.add-application .btn:hover {
+    color: #fff !important;
+}
+#myTabContent_7 .table-wrap #datable_11 tbody td {
+font-size: 13px !important;
+}
+#myTabContent_7 .accordion-struct.accordion-style-1.panel-group .panel .panel-heading.activestate {
+    background: #2ecd99;
+    border-bottom: 1px solid #2ecd99;
+}
+
+#myTabContent_7 .activestate .minus-ac {
+    color: white;
+}
+#myTabContent_7 .accordion-struct.accordion-style-1.panel-group .panel .panel-heading.activestate a {
+    color: #fff;
+}
+ #feeling_tab li a:focus {
+    background-color: #EEEEEE !important;
+    color: gray;
+}
+#home_7 #myTabs_10 li.active a,#feeling_tab li.active a{
+    background-color: #363e91 !important;
+}
+#home_7 #myTabs_10 li a:hover, #feeling_tab li a:hover {
+    background-color: #363e91 !important;
+}
+#myTabs_7 li.active > a {
+    border-bottom: 3px solid #363e91;
+}
+.acedmics-certificate img {
+    height:250px;
+}
+#profile_7 .table-wrap #datable_11 tbody td select.form-control {
+height: 35px !important;
+}
+.comments .replies {
+    position: relative;
+   
+    padding: 8px 20px;
+    border-radius: 8px;
+    margin: 20px 0px;
+}
+.comment_heading {
+    color: #fff;
+} 
+.comment_icon {
+    position: absolute;
+    top: -10px;
+    right: 20px;
+}
+.comment_icon i {
+    color: white;
+    font-size: 24px;
+}
+    
+
+.documnt:hover .documnet-del::before {
+    font-family:  'FontAwesome';
+    content: "\f1f8";
+    position: absolute;
+    top: 30px;
+    right: 14px;
+    color:black;
+}
+
+.documnt:hover .documnet-view::before {
+    font-family:  'FontAwesome';
+    content: "\f06e";
+    position: absolute;
+     top: 5px;    
+    right: 14px;
+    color:black;
+}
+
+.documnt:hover .documnet-edit::before {
+    font-family:  'FontAwesome';
+    content: "\f040";
+    position: absolute;
+    top: 60px;    
+    right: 14px;
+    color:black;
+}
+
+
+.documnt:hover .documnet-undo::before {
+    font-family:  'FontAwesome';
+    content: "\f01e";
+    position: absolute;
+    top: 5px;
+    right: 14px;
+    color:black;
+}
+
+
+
+.accordion-struct.panel-group .panel .panel-heading {
+    position: relative;
+}
+.comment_icon a::after {
+    font-family: 'FontAwesome';
+    content: "\f3e5";
+    font-size:20px;
+    margin-left: 10px;
+}
+.comment-header {
+    margin-bottom: 10px;
+}
+.comment-header i.user-icon {
+margin: 0 15px 20px 0;
+border-radius: 50%;
+float:left;
+background-color: #f2f2f2;
+color: black;
+width: 25px;
+height: 25px;
+font-size: 15px;
+display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a.comment-author-link {
+    font-size: 12px;
+    line-height: 18px;
+}
+p.comment-meta {
+    color: rgb(117, 142, 196);
+    font-size: 12px;
+    line-height: 18px;
+}
+.comments {
+    margin: 15px 0px;
+}
+.comment-content {
+   
+}
+.comment-content p {
+    font-size: 12px;
+    line-height: 18px;
+}
+span.says {
+    font-size: 11px;
+}
+
+
+.dflexbuttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin-top: 10px;
+}
+.programmes.search .form-select {
+    width: 100%;
+    background: #f2f2f2;
+    margin: 10px 0px;
+    padding: 10px;
+    border: unset !important;
+    color: #a9a9a9;
+    border-radius: 4px;
+}
+.search-programm-side {
+    background: #fff;
+    padding: 20px 20px 150px 20px;
+}
+form.prgrm_search-form {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+select.new_select {
+    border: 1px solid #ccc !important;
+    padding: 5px;
+    margin: 0px 5px;
+    border-radius: 4px;
+}
+.prgrm-data_section {
+    margin: 10px 0px;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    position:relative;
+}
+.prgrm-data_section h4 {
+    margin: 10px 0px;
+}
+.prgrm-data_section span {
+    text-decoration: underline;
+}
+.details_list {
+    background: #f5f5f5;
+    padding: 4px;
+    color: #000;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    min-width: 70px;
+
+}
+.prgrm_details {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+}
+.details_list span {
+    text-decoration: none;
+    font-size: 12px;
+}
+.last-tab {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.details_list p {
+    font-size: 14px;
+}
+
+.form_csv {
+    position: absolute;
+    top: 86px; 
+    left:49%;
+    z-index: 1;
+    display: flex;
+}
+.form_csv_download  {
+    position: absolute;
+    top: 86px; 
+    left:70%;
+    z-index: 1;
+    display: flex;
+}
+.form_csv_student {
+    position: absolute;
+    top: 86px; 
+    left:14%;
+    z-index: 1;
+    display: flex;
+}
+.form_csv_download_student  {
+    position: absolute;
+    top: 86px; 
+    left:74%;
+    z-index: 1;
+    display: flex;
+}
+.form_csv_programme {
+    position: absolute;
+    top: 86px; 
+    left:18%;
+    z-index: 1;
+    display: flex;
+}
+.form_csv_download_programme  {
+    position: absolute;
+    top: 86px; 
+    left:70%;
+    z-index: 1;
+    display: flex;
+}
+
+.manage_upload_button {
+    
+    margin-right: 30px; 
+    width:120px;
+} 
+
+.manage_upload_button1 {
+    
+    margin-right: 30px; 
+    width:120px;
+}
+
+
+.manage_upload_button2 {
+    width:80px;
+}
+.manage_upload_button2::-webkit-file-upload-button {
+    visibility: hidden !important;
+  }
+  .manage_upload_button2::before {
+    content: 'Upload';
+    display: inline-block !important;
+    background: linear-gradient(top, #f9f9f9, #e3e3e3);
+    border: 1px solid #999;
+    border-radius: 2px;
+    padding: 5px 8px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    text-shadow: 1px 1px #fff;
+    font-weight: 700;
+    font-size: 11pt;
+  }
+  .manage_upload_button2:hover::before {
+    border-color: black;
+  }
+  .manage_upload_button2:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+  }
+
+.upload_csv_button {
+    font-size: 13px;
+    padding: 6px 10px 6px 10px;
+    border-radius:3px !important;
+    margin-right: 30px; 
+    border: 1px solid #4e9de6;
+    color: #000;
+    width:100px;  
+    
+}
+.download_csv_button {
+    font-size: 13px;
+    padding: 6px 10px 6px 10px;
+    border-radius: 7px;
+    border-radius:2px !important;
+}
+
+@media screen and (max-width:767px) {
+
+    
+    
+    
+    
+    .search-programm-side {
+        background: #fff;
+        padding: 20px 20px 20px 20px;
+        margin-bottom: 30px;
+    }
+    .heading-bg {
+        height: 100px;
+        margin: 0 -20px 10px;
+        padding: 13px 0;
+    }
+    .manage_upload_button {
+        margin-right: 10px; 
+        width:94px;
+    } 
+    .manage_upload_button1 {
+        margin-right: 10px; 
+        width:94px;
+    } 
+    .upload_csv_button {
+        font-size: 10px;
+        padding: 6px 10px 6px 10px;
+        border-radius:7px;
+        margin-right: 30px; 
+        width:80px;  
+    }
+    .download_csv_button {
+        font-size: 10px;
+        padding: 6px 10px 6px 10px;
+        border-radius: 7px;
+    }
+    .form_csv {
+        position: absolute;
+        top: 154px;
+        left: 10px;
+        z-index: 1;
+        display: flex;
+    }
+   
+    .form_csv_download  {
+        position: absolute;
+    top: 154px;
+    left: 66%;
+    z-index: 1;
+    display: flex;
+    }
+    .prgrm-data_section {
+        margin: 10px 0px;
+        padding: 30px 15px;
+    }
+    .last-tab {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+    select.new_select {
+        
+        margin-top: 10px;
+        width: 45%;
+    }
+    #home_7 .vertical-pills .ver-nav-pills {
+         float: none; 
+    }
+    .comment_icon {
+        position: absolute;
+        top: -9px;
+        right: -12px;
+    }
+    .comment_icon span.comment-box {
+        font-size: 12px;
+    }
+    .comment_icon a::after {
+        
+        font-size: 10px;
+        
+    }
+    #notes_7 .accordion-struct.panel-group .panel .panel-heading a {
+        
+        font-size: 12px;
+        color: #000 !important;
+    }
+    .big_input {
+        margin-left: 0px;
+    }
+    .upload_csv_button {
+        font-size: 13px;
+        padding: 6px 10px 6px 10px;
+        border-radius:3px !important;
+        margin-right: 30px; 
+        border: 1px solid #4e9de6;
+        color: #000;
+        
+        
+    }
+    
+}
+.manage_upload_button::-webkit-file-upload-button {
+    visibility: hidden !important;
+  }
+  .manage_upload_button::before {
+    content: 'Select CSV files';
+    display: inline-block !important;
+    background: linear-gradient(top, #f9f9f9, #e3e3e3);
+    border: 1px solid #999;
+    border-radius: 2px;
+    padding: 5px 8px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    text-shadow: 1px 1px #fff;
+    font-weight: 700;
+    font-size: 10pt;
+  }
+  .manage_upload_button:hover::before {
+    border-color: black;
+  }
+  .manage_upload_button:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+  }
+
+  .manage_upload_button1::-webkit-file-upload-button {
+    visibility: hidden !important;
+  }
+  .manage_upload_button1::before {
+    content: 'Upload Photo';
+    display: inline-block !important;
+    background: linear-gradient(top, #f9f9f9, #e3e3e3);
+    border: 1px solid #999;
+    border-radius: 2px;
+    padding: 5px 8px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    text-shadow: 1px 1px #fff;
+    font-weight: 700;
+    font-size: 10pt;
+  }
+  .manage_upload_button1:hover::before {
+    border-color: black;
+  }
+  .manage_upload_button1:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+  }
+
+  .counsller_recommend a {
+    background: green;
+    padding: 9px 12px;
+    
+    border-radius: 3px;
+    color: white;
+    text-transform: uppercase;
+}
+.counsller_recommend {
+    display: flex;
+    justify-content: end;
+    font-size: 10px;
+    padding: 0px 1px 1px;
+    height: 34px;
+}
+.course_form .form-control {
+    display: inline-block !important;
+    /width: auto !important;/
+    padding: 6px 17px !important;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+   /* margin: 0px 5px;*/
+}
+
+.course_form .form-group {
+    display: inline-block !important;
+    width: auto !important;
+}
+.university_recommend h5 {
+    background: #4b4b4d;
+    color: #fff;
+    font-size: 15px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.university_recommend1 h5 {
+    background: #4b4b4d;
+    color: #fff;
+    font-size: 15px;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+
+
+.titles {
+    display: flex;
+    justify-content: space-between;
+    background: #4b4b4d;
+    margin: 20px 0px;
+    padding: 6px 10px;
+    border-radius: 4px;
+}
+
+.titles_submit {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 4px;
+}
+
+/*.course_add1 {
+    display: flex;
+    justify-content: space-between;
+}*/
+.add-section {
+    position: absolute;
+    top: -41px;
+    right: 13px;
+}
+.add-section-relation {
+    position: absolute;
+    top: 518px;
+    right: 131px;
+}
+
+
+.add_stdnt_btn button {
+    background: #363e91;
+
+}
+.add_stdnt_btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.big_input {
+    margin-left: 30px;
+}
+
+a.btn.toggle_accordion {
+    background: #4b4b4d;
+    margin: 20px 0px;
+    padding: 8px 10px;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 4px;
+    width: 100%;
+    text-align: left;
+}
+.details_list1 .card h5 {
+    background: #4b4b4d;
+    margin: 0px 0px 20px 0px;
+    padding: 6px 10px;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 4px;
+}
+.show_student_detail .details_list1 .card.card-body {
+    background: #fff;
+}
+.student_details_list {
+    padding: 0px 15px;
+    color: #000;
+    display: flex;
+}
+.student_details_list p {
+    margin: 20px 20px 20px 20px;
+}
+a.btn.toggle_accordion::before {
+    content: '\f107';
+    font-family: 'FontAwesome';
+    position: absolute;
+    left: 92%;
+}
+.choose_prog {
+    position: absolute;
+    left: 14%;
+    top: 25px;
+    z-index: 9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-select {
+    width:150px;
+    margin: 0px 10px;
+}
+a.delete_btn {
+ 
+    display: flex;
+    
+    align-items: center;
+}
+input.dobedit {
+    width: 130px !important;
+}
+form#addUser .select2-selection--multiple  {
+    height: auto;
+}
+.course_form {
+    display: flex;
+    justify-content: space-between;
+}
+.add-section{
+    position: absolute;
+    top: -41px;
+    right: 13px;
+}
+.add_mrgin {
+    margin-right: 30px;
+}
+@media screen and (max-width:767px) { 
+    input.dobedit {
+        width:100% !important;
+    }
+    .course_add1 {
+      
+        position: relative;
+        
+    }
+    .add-section {
+       
+        position: absolute;
+        top: -35px;
+        right: 0px;
+    }
+    .form-group.recommd {
+        width: 100% !important;
+    }
+    .search-select {
+        width:100%;
+        margin: 0px 10px;
+    }
+    .choose_prog {
+        position: relative;
+        left: 0;
+        top: 0;
+    }    
+    .big_input {
+        margin-left: 0px;
+    } 
+    .student_details_list p {
+        margin: 10px;
+    }
+    .counsller_recommend {
+       
+        margin-top: 10px;
+        
+    }
+    ul#myTabs_7 li {
+        display: inline-block;
+        float: left;
+        padding: 0px;
+    }
+    ul#myTabs_7 li a {
+        padding: 10px;
+        font-size: 10px;
+}
+
+.course_form {
+    position: relative;
+    margin: 15px 0px;
+}
+ a.delete_btn {
+    position: absolute;
+    right: -2px !important;
+    top: -24px;
+ }
+.course_form .form-control {
+   
+    width: 100% !important;
+    
+}
+ .course_1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.heading-bg h5 {
+   
+    text-align: center;
+}
+.breadcrumb {
+    display: block !important;
+}
+.breadcrumb-section {
+    display: flex;
+    justify-content: center;
+}
+.modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 10px;
+    top: 15%;
+}
+.prgrm_bg {
+    height: 120px;
+}
+.course_form {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+}
+
+@media screen and (min-width:375px) and (max-width:525px) {
+
+
+     .space-phone{
+        padding: 0 25px !important;
+    }
+
+
+    .manage_upload_button {
+        margin-right: 10px; 
+        width:94px;
+    } 
+    .manage_upload_button1 {
+        margin-right: 10px; 
+        width:94px;
+    } 
+    .upload_csv_button {
+       
+        border-radius:3px !important;
+        margin-right: 30px; 
+        border: 1px solid #4e9de6;
+        color: #000;
+        width:100px;  
+        
+    }
+    .upload_csv_button {
+        font-size: 10px;
+        padding: 6px 10px 6px 10px;
+        border-radius:7px;
+        margin-right: 30px; 
+        width:80px;  
+    }
+    .download_csv_button {
+        font-size: 10px;
+        padding: 6px 10px 6px 10px;
+        border-radius: 7px;
+    }
+    .form_csv {
+        position: absolute;
+        top: 154px;
+        left: 10%;
+        z-index: 1;
+        display: flex;
+    }
+   
+    .form_csv_download  {
+        position: absolute;
+    top: 154px;
+    left: 59%;
+    z-index: 1;
+    display: flex;
+    }
+    
+    .manage_upload_button::before {
+        content: 'Select CSV files';
+        display: inline-block !important;
+        background: linear-gradient(top, #f9f9f9, #e3e3e3);
+        border: 1px solid #999;
+        border-radius: 2px;
+        padding: 5px 8px;
+        outline: none;
+        white-space: nowrap;
+        -webkit-user-select: none;
+        cursor: pointer;
+        text-shadow: 1px 1px #fff;
+        font-weight: 700;
+        font-size: 10px;
+      }
+
+      .manage_upload_button1::before {
+        content: 'Upload Photo';
+        display: inline-block !important;
+        background: linear-gradient(top, #f9f9f9, #e3e3e3);
+        border: 1px solid #999;
+        border-radius: 2px;
+        padding: 5px 8px;
+        outline: none;
+        white-space: nowrap;
+        -webkit-user-select: none;
+        cursor: pointer;
+        text-shadow: 1px 1px #fff;
+        font-weight: 700;
+        font-size: 10px;
+      }
+}
+
+
+@media screen and (min-width:1366px) and (max-width:768px){
+    .add-section-relation {
+    position: absolute;
+    top: 549px;
+    right: 131px;
+    }
+}
+
+
+
+@media screen and (min-width:525px) and (max-width:767px) {
+
+
+     .space-phone{
+        padding: 0 25px !important;
+    }
+
+
+    .upload_csv_button {
+       
+        border-radius:3px !important;
+        margin-right: 30px; 
+        border: 1px solid #4e9de6;
+        color: #000;
+          
+        
+    }
+    .manage_upload_button {
+        margin-right: 10px; 
+        width:120px;
+    } 
+    .manage_upload_button1 {
+        margin-right: 10px; 
+        width:120px;
+    } 
+    .upload_csv_button {
+        font-size: 10px;
+        padding: 6px 10px 6px 10px;
+        border-radius:7px;
+        margin-right: 30px; 
+        width:100px;  
+    }
+    .download_csv_button {
+        font-size: 13px;
+        padding: 6px 10px 6px 10px;
+        border-radius: 7px;
+    }
+    .form_csv {
+        position: absolute;
+        top: 154px;
+        left: 23%;
+        z-index: 1;
+        display: flex;
+    }
+   
+    .form_csv_download  {
+        position: absolute;
+    top: 154px;
+    left: 66%;
+    z-index: 1;
+    display: flex;
+    }
+    .manage_upload_button::before {
+        content: 'Select CSV files';
+        display: inline-block !important;
+        background: linear-gradient(top, #f9f9f9, #e3e3e3);
+        border: 1px solid #999;
+        border-radius: 2px;
+        padding: 5px 8px;
+        outline: none;
+        white-space: nowrap;
+        -webkit-user-select: none;
+        cursor: pointer;
+        text-shadow: 1px 1px #fff;
+        font-weight: 700;
+        font-size: 10pt;
+      }
+      .manage_upload_button1::before {
+        content: 'Upload Photo';
+        display: inline-block !important;
+        background: linear-gradient(top, #f9f9f9, #e3e3e3);
+        border: 1px solid #999;
+        border-radius: 2px;
+        padding: 5px 8px;
+        outline: none;
+        white-space: nowrap;
+        -webkit-user-select: none;
+        cursor: pointer;
+        text-shadow: 1px 1px #fff;
+        font-weight: 700;
+        font-size: 10pt;
+      }
+}
+@media screen and (min-width:768px) and (max-width:992px) {
+
+     .space-phone{
+        padding: 0 25px !important;
+    }
+
+
+
+    .form-group.recommd {
+        width: 100% !important;
+    }
+    .form_csv {
+        position: absolute;
+        top: 86px; 
+        left:30%;
+        z-index: 1;
+        display: flex;
+    }
+    .manage_upload_button::before {
+        content: 'Select CSV files';
+        display: inline-block !important;
+        background: linear-gradient(top, #f9f9f9, #e3e3e3);
+        border: 1px solid #999;
+        border-radius: 2px;
+        padding: 5px 8px;
+        outline: none;
+        white-space: nowrap;
+        -webkit-user-select: none;
+        cursor: pointer;
+        text-shadow: 1px 1px #fff;
+        font-weight: 700;
+        font-size: 10px;
+    }
+    .manage_upload_button1::before {
+        content: 'Upload Photo';
+        display: inline-block !important;
+        background: linear-gradient(top, #f9f9f9, #e3e3e3);
+        border: 1px solid #999;
+        border-radius: 2px;
+        padding: 5px 8px;
+        outline: none;
+        white-space: nowrap;
+        -webkit-user-select: none;
+        cursor: pointer;
+        text-shadow: 1px 1px #fff;
+        font-weight: 700;
+        font-size: 10px;
+    }
+    .form_csv_download  {
+        position: absolute;
+        top: 86px; 
+        left:55%;
+        z-index: 1;
+        display: flex;
+    }
+    .manage_upload_button {
+        
+        margin-right: 5px; 
+        width:100px;
+    } 
+    .manage_upload_button1 {
+        
+        margin-right: 5px; 
+        width:100px;
+    } 
+    .upload_csv_button {
+        font-size: 10px;
+        padding: 6px 10px 6px 10px;
+        border-radius:3px !important;
+        margin-right: 30px; 
+        border: 1px solid #4e9de6;
+        color: #000;
+        width:80px;  
+        
+    }
+    .download_csv_button {
+        font-size: 10px;
+        padding: 6px 10px 6px 10px;
+        border-radius: 7px;
+        border-radius:2px !important;
+    }
+}
+@media screen and (max-width:375px) {
+
+   
+
+    .manage_upload_button {
+        margin-right: 10px; 
+        width:94px;
+    } 
+    .manage_upload_button1 {
+        margin-right: 10px; 
+        width:94px;
+    } 
+    .upload_csv_button {
+        font-size: 10px;
+        padding: 6px 10px 6px 10px;
+        border-radius:7px;
+        margin-right: 30px; 
+        width:80px;  
+    }
+    .download_csv_button {
+        font-size: 10px;
+        padding: 6px 10px 6px 10px;
+        border-radius: 7px;
+    }
+    .form_csv {
+        position: absolute;
+        top: 154px;
+        left: 10px;
+        z-index: 1;
+        display: flex;
+    }
+   
+    .form_csv_download  {
+        position: absolute;
+    top: 154px;
+    left: 66%;
+    z-index: 1;
+    display: flex;
+    }
+    .manage_upload_button::before {
+        content: 'Select CSV files';
+        display: inline-block !important;
+        background: linear-gradient(top, #f9f9f9, #e3e3e3);
+        border: 1px solid #999;
+        border-radius: 2px;
+        padding: 5px 8px;
+        outline: none;
+        white-space: nowrap;
+        -webkit-user-select: none;
+        cursor: pointer;
+        text-shadow: 1px 1px #fff;
+        font-weight: 700;
+        font-size: 10px;
+      }
+
+
+      .manage_upload_button1::before {
+        content: 'Upload Photo';
+        display: inline-block !important;
+        background: linear-gradient(top, #f9f9f9, #e3e3e3);
+        border: 1px solid #999;
+        border-radius: 2px;
+        padding: 5px 8px;
+        outline: none;
+        white-space: nowrap;
+        -webkit-user-select: none;
+        cursor: pointer;
+        text-shadow: 1px 1px #fff;
+        font-weight: 700;
+        font-size: 10px;
+      }
+}
+
+a.remove_field3.delete_btn{
+    position: absolute;
+    bottom: 24px;
+    right: 0;
+}
+
+.course_add1{
+    position: relative;
+}
+
+a.remove_field7.delete_btn, a.remove_field2.delete_btn{
+    position: absolute;
+    bottom: 92px;
+    right: 0;
+}
+
+
+.input-group-addon-dr {
+    background: #4b4b4d;
+    color: white;    
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid #4b4b4d;
+    padding: 0px 8px;
+    font-size: 12px;
+}

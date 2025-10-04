@@ -1,0 +1,308 @@
+<?php
+ob_start();
+session_start();
+include('include/config.php');
+include("include/functions.php");
+validate_user();
+$_SESSION['whr1'] = '';
+    $whr1 = " and (b.message LIKE '%\'Consultation\'\":\"Ok%')";
+if($_SESSION['level_id']==20){
+    $branch_id = getField('branch_id',$tbl_admin,$_SESSION['sess_admin_id']);
+    $whr1 .= " and a.branch_id in ($branch_id)";
+}
+if($_SESSION['level_id']==21){
+    $whr1 .= " and a.wc_id ='".$_SESSION['sess_admin_id']."' ";
+}
+if($_SESSION['level_id']==4){
+    $whr1 .= " and a.c_id ='".$_SESSION['sess_admin_id']."' ";
+}
+$_SESSION['whr1'] = $whr1;
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <?php include('head.php'); ?>
+</head>
+<style type="text/css">
+.material-switch>input[type="checkbox"] {
+    display: none;
+}
+
+.material-switch>label {
+    cursor: pointer;
+    height: 0px;
+    position: relative;
+    width: 40px;
+}
+
+.material-switch>label::before {
+    background: rgb(0, 0, 0);
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    content: '';
+    height: 16px;
+    margin-top: -8px;
+    position: absolute;
+    opacity: 0.3;
+    transition: all 0.4s ease-in-out;
+    width: 40px;
+}
+
+.material-switch>label::after {
+    background: rgb(255, 255, 255);
+    border-radius: 16px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    content: '';
+    height: 24px;
+    left: -4px;
+    margin-top: -8px;
+    position: absolute;
+    top: -4px;
+    transition: all 0.3s ease-in-out;
+    width: 24px;
+}
+
+.material-switch>input[type="checkbox"]:checked+label::before { 
+    background: inherit;
+    opacity: 0.5;
+}
+
+.material-switch>input[type="checkbox"]:checked+label::after {
+    background: inherit;
+    left: 20px;
+}
+</style>
+
+<body>
+    <div class="preloader-it">
+        <div class="la-anim-1"></div>
+    </div>
+    <div class="wrapper theme-1-active pimary-color-green">
+        <?php include("menu.php"); ?>
+        <div class="page-wrapper">
+            <div class="container-fluid">
+                <h5 style="color:#2a911d; text-align: center;">
+                    <?php echo $_SESSION['sess_msg'];
+                    $_SESSION['sess_msg'] = '';  ?></h5>
+                <h5 style="color:red;"><?php echo $_SESSION['sess_msg_error'];
+                                        $_SESSION['sess_msg_error'] = '';  ?></h5>
+                <div class="row heading-bg">
+                    <div class="col-lg-6 col-md-4 col-sm-4 col-xs-12">
+                        <h5 class="txt-dark">Consultation Required Students
+                            <?php if ($_REQUEST['status']) {
+                                echo "<span style='color:#2e0cdd;'>of " . $stauscontent . "</span>";
+                            } ?>
+                        </h5>
+                    </div>
+
+                    <div class="breadcrumb-section col-lg-6 col-sm-8 col-md-8 col-xs-12">
+                        <ol class="breadcrumb">
+                            <li><a href="welcome.php">Dashboard</a></li>
+                        </ol>
+                    </div>
+                </div>
+          
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="panel panel-default card-view">
+                            <div class="panel-wrapper collapse in">
+                                <div class="panel-body">
+                                        <div class="table-responsive">
+                                            <table id="ApplicationList" class="table table-hover display pb-30">
+                                                <thead>
+                                                    <tr>
+                                                        <th>ID</th>
+                                                        <th>Date</th>
+                                                        <th>Student Code</th>
+                                                        <th>Name</th>
+                                                        <th>Father Name</th>
+                                                        <th>Country</th>
+                                                        <th>Contact</th>
+                                                        <th>Branch</th>
+                                                        <th>Counsellor Name</th>
+                                                        <th>View Profile</th>
+                                                    </tr>
+                                                </thead>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                </form>
+                <footer class="footer container-fluid pl-30 pr-30">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <p>2023 &copy; Powered by IBT India Pvt Ltd</p>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Pay Now</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <form action="add-fee.php" method="get">
+                    <div class="modal-body" style="text-align: center;">
+                        <input type="hidden" class="form-control" id="get_id" name="id" required>
+                        <input type="hidden" class="form-control" id="get_type" value="After Visa" name="type" required>
+                        <center>
+                            <div class="row">
+                                <div class="style-radio col-md-6">
+                                    <label for="after_visa">After Visa</label>
+                                    <input type="radio" name="types" id="after_visa" value="After Visa"
+                                        onchange="change_radio(this.value)" checked required>
+                                </div>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary">Pay Now</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- model table -->
+
+    <div id="invoiceModel" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content bg-white">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">
+                        <img src="img/logo.svg" alt="logo" height="50px">
+                        <span style="font-weight: 700; color: black;">Student Fee Details</span>
+                        <span></span>
+                    </h4>
+                </div>
+                <div class="modal-body bg-light px-0" id="get_modal_data">
+
+                </div>
+
+            </div>
+        </div>
+
+
+        <?php include("footer.php"); ?>
+        <script src="js/select2.full.min.js"></script>
+        <script src="js/select2.full.min.js"></script>
+        <script type="text/javascript">
+        $(".select2").select2({
+            placeholder: "All Branch",
+            allowClear: true
+        });
+
+        var dataTable = $('#ApplicationList').DataTable({
+            "processing": true,
+            "serverSide": true,
+            "stateSave": false,
+            "lengthMenu": [
+                [10, 50, 100, 500, 1000, 1500],
+                [10, 50, 100, 500, 1000, 1500]
+            ],
+            "pageLength": 10,
+            "aoColumnDefs": [{
+                    "bSortable": false,
+                    "aTargets": [0, 1, 2, 3, 4, 5, 6, 7]
+                },
+                {
+                    "bSearchable": false,
+                    "aTargets": [0, 1, 2, 3, 4, 5, 6, 7]
+                }
+            ],
+            "ajax": { 
+                url: "welcome-call-consultant-student-ajax.php",
+                type: "post",
+                error: function() {
+                    $(".product-grid-error").html("");
+                    $("#product-grid").append(
+                        '<tbody class="product-grid-error"><tr><th colspan="3">No data found in the server</th></tr></tbody>'
+                    );
+                    $("#product-grid_processing").css("display", "none");
+                }
+            },
+            "createdRow": function(row, data, dataIndex) {
+                $('td', row).eq(-5).css('text-align', 'center');
+                $('td', row).eq(-4).css('text-align', 'center');
+                $('td', row).eq(-3).css('text-align', 'center');
+                $('td', row).eq(-2).css('text-align', 'center');
+                $('td', row).eq(-1).css('text-align', 'center');
+            }
+        })
+
+
+        $("#branch_id").change(function() {
+            $("#searchfrm").submit();
+        })
+        $("#country_id").change(function() {
+            $("#searchfrm").submit();
+        })
+        $("#councellor_id").change(function() {
+            $("#searchfrm").submit();
+        })
+        $("#telecaller_id").change(function() {
+            $("#searchfrm").submit();
+        })
+        $("#visa_type").change(function() {
+            $("#searchfrm").submit();
+        })
+        $("#payment_type").change(function() {
+            $("#searchfrm").submit();
+        }) 
+
+
+        function getAppRecord(status) {
+            $('#searchfrm').append('<input name="status" value="' + status + '" type="hidden"/>');
+            $("#searchfrm").submit();
+        }
+        </script>
+        <script>
+        function get_modal(id) {
+            $("#get_id").val(id);
+            $("#exampleModal").modal('show');
+        }
+
+        function change_radio(val) {
+            $("#get_type").val(val);
+            $("#exampleModal").modal('show');
+        }
+        </script>
+     <script>
+        function get_modal_data(id,payment_type){
+            $.ajax({
+                method:"POST",
+                url:"controller.php",
+                data:{id:id,type:payment_type,get_modal_data_fee:1},
+                success:function(data){
+                    $("#get_modal_data").html(data);
+                }
+            })
+        }
+    </script>
+    <script>
+          function getAppRecord(status) {
+            $('#searchfrm').append('<input name="status" value="' + status + '" type="hidden"/>');
+            $("#searchfrm").submit();
+        }
+    </script>
+        <script src="js/change-status.js"></script>
+</body>
+
+</html>
